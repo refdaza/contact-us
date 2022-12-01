@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-md col-5 text-center mt-5 bg-light p-5">
+      <p class="h3" id="titulo">Contact Us</p>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-sm-2 mb-4">
+            <img src="./img/user.svg" alt="" />
+          </div>
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="First Name"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 mb-4">
+            <img src="./img/user.svg" alt="" />
+          </div>
+          <div class="col-sm-8">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 mb-4">
+            <img src="./img/mail.svg" alt="" id="email" />
+          </div>
+          <div class="col-sm-8">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Email Adrress"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 mb-4">
+            <img src="./img/phone.svg" alt="" />
+          </div>
+          <div class="col-sm-8">
+            <input
+              type="number"
+              class="form-control"
+              id="celular"
+              placeholder="Phone"
+              maxlength="9"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 mb-4">
+            <img src="./img/edit.svg" alt="" />
+          </div>
+          <div class="col-sm-8">
+            <textarea
+              class="form-control"
+              placeholder="Enter your massage for us here. We will get back."
+              style="height: 100px"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
